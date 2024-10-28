@@ -3,8 +3,10 @@
  */
 public class Personal {
 
-    public static void main(String[] args) {
-        System.out.println("Personal");
+    @Override
+    public String toString() {
+        return "Personal";
+
     }
 
 
